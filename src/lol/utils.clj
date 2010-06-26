@@ -1,6 +1,6 @@
-(clojure.core/ns yacin.let-over-lambda.utils
-		 (:use yacin.onlisp.utils)
-		 (:use clojure.contrib.def))
+(ns #^{:author "Yacin Nadji <yacin@gatech.edu>"}
+  lol.utils
+  (:use yacin.onlisp.utils))
 
 (defmacro nlet
   "Scheme-style named let macro"
